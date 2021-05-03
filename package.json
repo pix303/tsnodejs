@@ -1,0 +1,35 @@
+{
+  "name": "pix303.tsnodejs",
+  "version": "1.0.0",
+  "description": "Tutorial project to test and show Typescript features",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "start-types": "cp demo/types.ts index.ts && tsc && node dist/index.js",
+    "start-structures": "cp demo/structures.ts index.ts && tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pix303/tsnodejs.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Nodejs",
+    "tutorial",
+    "demo",
+    "test"
+  ],
+  "author": "Paolo Carraro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pix303/tsnodejs/issues"
+  },
+  "homepage": "https://github.com/pix303/tsnodejs#readme",
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "rxjs": "^6.6.7"
+  }
+}
